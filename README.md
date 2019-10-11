@@ -1,4 +1,4 @@
-# nexus
+# mysql
 
 ## 父镜像地址
 ```shell script
