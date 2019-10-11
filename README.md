@@ -20,7 +20,10 @@ docker pull registry.cn-beijing.aliyuncs.com/meowbite/mysql:5.7
 docker run --name some-mysql -p 3306:3306 -v /my/own/datadir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d registry.cn-beijing.aliyuncs.com/meowbite/mysql:5.7
 ```
 
-
+## 参考dockerfile
+```bash
+https://c.163yun.com/hub#/library/repository/info?repoId=2955
+```
 
 ## 验证
 
