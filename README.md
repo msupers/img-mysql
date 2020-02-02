@@ -17,7 +17,11 @@ registry.cn-beijing.aliyuncs.com/meowbite/mysql:5.7
 ```shell script
 docker pull registry.cn-beijing.aliyuncs.com/meowbite/mysql:5.7
 
+# docker 
 docker run --name some-mysql -p 3306:3306 -v /my/own/datadir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d registry.cn-beijing.aliyuncs.com/meowbite/mysql:5.7
+
+docker-compose
+sudo docker-compose up -d 
 ```
 
 ## 参考dockerfile
